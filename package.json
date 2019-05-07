@@ -1,12 +1,12 @@
 {
-  "name": "cartaovalidator",
+  "name": "amf-card-validator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Biblioteca js para validar cartão de crédito",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha"
   },
-  "author": "",
+  "author": "Aline Marjorie",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
