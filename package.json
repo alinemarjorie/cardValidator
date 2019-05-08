@@ -4,7 +4,8 @@
   "description": "Biblioteca js para validar cartão de crédito",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/mocha",
+    "lint": "./node_modules/eslint/bin/eslint.js ."
   },
   "author": "Aline Marjorie",
   "license": "ISC",

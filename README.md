@@ -7,8 +7,8 @@ Esta biblioteca tem a funcionalidade de validar o número de cartões de crédit
     
 ## Como utilizar:
 ```
-  const creditCard = require("amf-card-validator");
-  console.log(creditCard.cardValidator(00000000000)) 
+  const { creditcardValidatorCard } = require("amf-card-validator");
+  console.log(cardValidator(00000000000)) 
 ```
 
 ## Funcionalidades:
