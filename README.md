@@ -3,6 +3,7 @@
 Esta biblioteca tem a funcionalidade de validar o número de cartões de crédito, para uso em aplicações web.
 
 ## Como instalar:
+<<<<<<< HEAD
   $  npm install amf-card-validator
   
 ## Como utilizar:
