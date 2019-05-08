@@ -1,9 +1,3 @@
-function cardValidator(card) {
-  const creditCard = card.toString().split('');
-  if (creditCard.every((num) => num === creditCard[0])) {
-    return false;
-  } return testCard(creditCard);
-}
 function testCard(arrayCard) {
   const validate = arrayCard
     .reverse()
@@ -13,4 +7,11 @@ function testCard(arrayCard) {
     .reduce((accum, num) => accum += num) % 10 === 0;
   return validate;
 }
-module.exports.cardValidator = cardValidator;
+
+module.exports.cardValidator = card => {
+  const creditCard = card.toString().split('');
+  if (creditCard.every((num) => num === creditCard[0])) {
+    return false;
+  }
+  return testCard(creditCard);
+};
