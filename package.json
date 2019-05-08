@@ -1,6 +1,6 @@
 {
   "name": "amf-card-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Biblioteca js para validar cartão de crédito",
   "main": "index.js",
   "scripts": {
